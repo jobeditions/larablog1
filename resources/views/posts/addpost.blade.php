@@ -12,10 +12,10 @@
                        
                         <tr>
                             <td>
-                                <label>Title</label>
+                                <label for="title">Title</label>
                             </td>
                             <td>
-                                <input type="text" placeholder="Enter Post Title..." class="medium" />
+                                <input type="text" placeholder="Enter Post Title..." class="medium" id="title" name="title"/>
                             </td>
                         </tr>
                      
@@ -35,10 +35,10 @@
                     
                         <tr>
                             <td>
-                                <label>Date Picker</label>
+                                <label for="date-picker">Date Picker</label>
                             </td>
                             <td>
-                                <input type="text" id="date-picker" />
+                                <input type="text" id="date-picker" class="date-picker"/>
                             </td>
                         </tr>
                         <tr>
@@ -51,16 +51,16 @@
                         </tr>
                         <tr>
                             <td style="vertical-align: top; padding-top: 9px;">
-                                <label>Content</label>
+                                <label for="body">Content</label>
                             </td>
                             <td>
-                                <textarea col=30 row=60></textarea>
+                                <textarea id="body" name="body" col=30 row=60></textarea>
                             </td>
                         </tr>
 						<tr>
                             <td></td>
                             <td>
-                                <input type="submit" name="submit" Value="Save" />
+                                <button type="submit">Publish</button>
                             </td>
                         </tr>
                     </table>
