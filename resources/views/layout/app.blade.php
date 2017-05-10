@@ -5,7 +5,7 @@
 	
 
 		
-	@include('partials.sidebar')
+	
 	@include('partials.footer')
 
 </html>

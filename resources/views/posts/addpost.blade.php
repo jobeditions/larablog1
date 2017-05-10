@@ -6,7 +6,8 @@
             <div class="box round first grid">
                 <h2>Add New Post</h2>
                 <div class="block">               
-                 <form action="" method="" enctype="multipart/form-data">
+                 <form action="/posts" method="POST" enctype="multipart/form-data">
+                 {{ csrf_field() }}
                     <table class="form">
                        
                         <tr>

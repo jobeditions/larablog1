@@ -17,9 +17,11 @@ class PageController extends Controller
     function about()
     {
     	return view('pages.about');
-    }function index()
+    }
+    function index()
     {
     	return view('pages.welcome');
     }
+    
 
 }

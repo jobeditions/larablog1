@@ -45,4 +45,5 @@
  </div>
 
 		</div>
+		@include('partials.sidebar')
 		@endsection
