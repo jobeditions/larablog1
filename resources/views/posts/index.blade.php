@@ -1,7 +1,8 @@
-        <link rel="stylesheet" href="css/app.css">
-        
-
-        <div class="contentsection contemplete clear">
+@include('partials.header')
+      
+      @section('body1')
+      @show
+      <div class="contentsection contemplete clear">
 		<div class="maincontent clear">
 
 			
@@ -12,7 +13,8 @@
 
 
 		</div>
-       @include('partials.sidebar')
+	
 
-			
-			
+		
+	@include('partials.sidebar')
+	@include('partials.footer')

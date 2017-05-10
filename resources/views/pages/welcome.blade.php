@@ -1,10 +1,7 @@
-@extends('layout.app')
-@section('pagetitle','Blog écrivain')
 
-
-@section('body')
-
-     @include('partials.slider')
-	@include('posts.index')
+     
+	@extends('posts.index')
+	@section('body1')
+	@include('partials.slider')
+	@endsection
 	
-		@endsection
