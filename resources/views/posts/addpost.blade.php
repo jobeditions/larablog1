@@ -18,6 +18,15 @@
                                 <input type="text" placeholder="Enter Post Title..." class="medium" id="title" name="title"/>
                             </td>
                         </tr>
+
+                        <tr>
+                            <td>
+                                <label for="author">Author</label>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Enter Author  Name..." class="medium" id="author" name="author"/>
+                            </td>
+                        </tr>
                      
                         <tr>
                             <td>

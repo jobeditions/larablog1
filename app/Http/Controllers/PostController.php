@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Posts;
 
 class PostController extends Controller
 {
@@ -34,7 +35,16 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        dd(request()->all());
+        //dd(request()->all());
+        //dd(request(['title','body']));
+
+        $post = new Posts;
+        
+        $post->title = $request->title;
+        $post->body = $request->body;
+        $post->author = $request->author;
+        $post->save();
+        return redirect('/');
     }
 
     /**
